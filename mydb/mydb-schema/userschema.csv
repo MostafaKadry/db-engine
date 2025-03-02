@@ -1,0 +1,5 @@
+colName,dataType,required,unique
+id,number,true,true
+username,string,true,false
+age,number,false,false
+phone,number,false,false

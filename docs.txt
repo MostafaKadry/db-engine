@@ -1,0 +1,17 @@
+[1] To create new db use the following cmd 
+ . ./main.sh
+ mostafa-db create db your-db-name
+
+
+ [2] Then Create table with the following cmd :
+  your-db-name table create table-name
+
+[3] then you must create schema for this table :
+    your-db-name table-name [col-name, data-tpye, requird, unique] [col2-name, data-tpye, requird, unique] [col(n)-name, data-tpye, requird, unique]
+
+    - requird if it requird so if you do not type requird it will be considered not requierd 
+    - and the same thing with unique
+
+[4] then start to insert data to your table using 
+    your-db-name table-name {col-name: value, col-name: value, ...}
+    

@@ -1,0 +1,2 @@
+colName,dataType,required,unique
+id,string,true,true
